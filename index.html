@@ -1,654 +1,788 @@
 <!DOCTYPE html>
 <head>
-	<style>
-		a:link {
-		color: yellow;
-		background-color: transparent;
-		text-decoration: none;
-		}
-		a:visited {
-		color: pink;
-		background-color: transparent;
-		text-decoration: none;
-		}
-		a:hover {
-		color: green;
-		background-color: transparent;
-		text-decoration: underline;
-		}
-		a:active {
-		color: yellow;
-		background-color: transparent;
-		text-decoration: underline;
-		}
-	</style>
+   <style>
+      a:link {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: none;
+      }
+      a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+      }
+      a:hover {
+      color: green;
+      background-color: transparent;
+      text-decoration: underline;
+      }
+      a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+      }
+   </style>
 </head>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>VIJAYA PRAKASH MURUGAN</title>
-		<!--
-			- favicon
-			-->
-		<link rel="shortcut icon" href="./assets/images/Vijay-logo.png" type="image/x-icon">
-		<!--
-			- custom css link
-			-->
-		<link rel="stylesheet" href="./assets/css/style.css">
-		<!--
-			- google font link
-			-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<!--
-			- #MAIN
-			-->
-		<main>
-			<!--
-				- #SIDEBAR
-				-->
-			<aside class="sidebar" data-sidebar>
-				<div class="sidebar-info">
-					<figure class="avatar-box">
-						<img src="./assets/images/profile.jpg" alt="Vijaya Prakash M" width="150">
-					</figure>
-					<div class="info-content">
-						<h1 class="name" title="Vijaya Prakash M">Vijaya Prakash M</h1>
-						<p class="title" style="text-align:center">M.E.&nbsp; Avionics <br>Madras Institute of Technology <br> Anna University </p>
-					</div>
-					<button class="info_more-btn" data-sidebar-btn>
-						<span>Show Contacts</span>
-						<ion-icon name="chevron-down"></ion-icon>
-					</button>
-				</div>
-				<div class="sidebar-info_more">
-					<div class="separator"></div>
-					<ul class="contacts-list">
-						<li class="contact-item">
-							<div class="icon-box">
-								<ion-icon name="mail-outline"></ion-icon>
-							</div>
-							<div class="contact-info">
-								<p class="contact-title">Email</p>
-								<a href="mailto:muruvijay99@gmail.com" target="new" class="contact-link">muruvijay99@gmail.com</a>
-							</div>
-						</li>
-						<!--
-							<li class="contact-item">
-							
-							  <div class="icon-box">
-							    <ion-icon name="phone-portrait-outline"></ion-icon>
-							  </div>
-							
-							  <div class="contact-info">
-							    <p class="contact-title">Phone</p>
-							
-							    <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
-							  </div>
-							
-							</li>
-							
-							<li class="contact-item">
-							
-							  <div class="icon-box">
-							    <ion-icon name="calendar-outline"></ion-icon>
-							  </div>
-							
-							  <div class="contact-info">
-							    <p class="contact-title">Birthday</p>
-							
-							    <time datetime="1982-06-23">June 23, 1982</time>
-							  </div>
-							
-							</li>
-							-->
-						<li class="contact-item">
-							<div class="icon-box">
-								<ion-icon name="location-outline"></ion-icon>
-							</div>
-							<div class="contact-info">
-								<p class="contact-title">Location</p>
-								<address>
-									Chennai, Tamil Nadu, India
-								</address>
-							</div>
-						</li>
-						<li class="contact-item">
-							<div class="icon-box">
-								<img src="./assets/images/icon-dev.svg" alt="Web development icon" width="20">
-								<!--				<ion-icon name="calendar-outline"></ion-icon>-->
-							</div>
-							<!--
-								<div class="service-icon-box">
-								             <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-								           </div>
-								-->
-							<div class="contact-info">
-								<p class="contact-title">Websites</p>
-								<ul class="social-list">
-									<li class="social-item">
-										<a href="https://scholar.google.com/citations?hl=en&user=Pkp2N30AAAAJ" target="new" class="https://scholar.google.com/citations?hl=en&user=Pkp2N30AAAAJ">
-											<ion-icon name="logo-google"></ion-icon>
-										</a>
-									</li>
-									<li class="social-item">
-										<a href="https://twitter.com/Muruganvijay99" target="new" class="https://twitter.com/Muruganvijay99">
-											<ion-icon name="logo-twitter"></ion-icon>
-										</a>
-									</li>
-									<li class="social-item">
-										<a href="https://github.com/muruvijay99/" target="new" class="https://github.com/muruvijay99/">
-											<ion-icon name="logo-github"></ion-icon>
-										</a>
-									</li>
-									<li class="social-item">
-										<a href="https://www.linkedin.com/in/vijaya-prakash-murugan/" target="new" class="https://www.linkedin.com/in/vijaya-prakash-murugan/">
-											<ion-icon name="logo-linkedin"></ion-icon>
-										</a>
-									</li>
-								</ul>
-								<!--              <time datetime="1982-06-23">June 23, 1982</time>-->
-							</div>
-						</li>
-					</ul>
-					<div class="separator"></div>
-				</div>
-			</aside>
-			<!--
-				- #main-content
-				-->
-			<div class="main-content">
-				<!--
-					- #NAVBAR
-					-->
-				<nav class="navbar">
-					<ul class="navbar-list">
-						<li class="navbar-item">
-							<button class="navbar-link  active" data-nav-link>About</button>
-						</li>
-						<li class="navbar-item">
-							<button class="navbar-link" data-nav-link>Resume</button>
-						</li>
-						<li class="navbar-item">
-							<button class="navbar-link" data-nav-link>Projects</button>
-						</li>
-						<li class="navbar-item">
-							<button class="navbar-link" data-nav-link>Blog</button>
-						</li>
-						<li class="navbar-item">
-							<button class="navbar-link" data-nav-link>Contact</button>
-						</li>
-					</ul>
-				</nav>
-				<!--
-					- #ABOUT
-					-->
-				<article class="about  active" data-page="about">
-					<header>
-						<h2 class="h2 article-title">About me</h2>
-					</header>
-					<section class="about-text">
-						<p style="display:inline;"> I am a M.E. Student in <a style="display:inline;" href="https://mitindia.edu/en" target="new">Avionics</a>. I did my Bachelor's (B.Tech.) in Aerospace Engineering at PMIST. <br>
-							<br>
-							I am broadly interested in Flight Control Systems and Computer Vision with applications to intelligent Aerial Robotic systems. I am looking to further explore new research areas in computer vision.
-						</p>
-					</section>
-					<!--
-						- service
-						-->
-					<section class="service">
-						<h3 class="h3 service-title">What i'm doing</h3>
-						<ul class="service-list">
-							<li class="service-item">
-								<div class="service-icon-box">
-									<img src="./assets/images/icon-design.svg
-										" alt="design icon" width="40">
-								</div>
-								<div class="service-content-box">
-									<h4 class="h4 service-item-title">Computer Vision&nbsp;</h4>
-									<p class="service-item-text">
-										Research towards state-of-the-art algorithms in computer vision.
-									</p>
-								</div>
-							</li>
-							<!--
-								<li class="service-item">
-								
-								  <div class="service-icon-box">
-								    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-								  </div>
-								
-								  <div class="service-content-box">
-								    <h4 class="h4 service-item-title">Web development</h4>
-								
-								    <p class="service-item-text">
-								      High-quality development of sites at the professional level.
-								    </p>
-								  </div>
-								
-								</li>
-								
-								
-								<li class="service-item">
-								
-								  <div class="service-icon-box">
-								    <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-								  </div>
-								
-								  <div class="service-content-box">
-								    <h4 class="h4 service-item-title">Mobile apps</h4>
-								
-								    <p class="service-item-text">
-								      Professional development of applications for iOS and Android.
-								    </p>
-								  </div>
-								
-								</li>
-								-->
-							<!--
-								<li class="service-item">
-								
-								  <div class="service-icon-box">
-								    <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-								  </div>
-								
-								  <div class="service-content-box">
-								    <h4 class="h4 service-item-title"><a href="https://www.flickr.com/photos/kosmic_palette" target="new">Astrophotography</a></h4>
-								
-								    <p class="service-item-text">
-								      Photography of celestial bodies or events such as Milkyway, star trails.
-								    </p>
-								  </div>
-								
-								</li>
-								-->
-						</ul>
-					</section>
-					<!--
-						- testimonials modal
-						-->
-					<div class="modal-container" data-modal-container>
-						<div class="overlay" data-overlay></div>
-						<section class="testimonials-modal">
-							<button class="modal-close-btn" data-modal-close-btn>
-								<ion-icon name="close-outline"></ion-icon>
-							</button>
-							<div class="modal-img-wrapper">
-								<figure class="modal-avatar-box">
-									<img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-								</figure>
-								<img src="./assets/images/icon-quote.svg" alt="quote icon">
-							</div>
-							<div class="modal-content">
-								<h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-								<time datetime="2021-06-14">14 June, 2021</time>
-								<div data-modal-text>
-									<p>
-										Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-										lot of experience
-										and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-										consectetur adipiscing
-										elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-									</p>
-								</div>
-							</div>
-						</section>
-					</div>
-				</article>
-				<!--
-					- #RESUME
-					-->
-				<article class="resume" data-page="resume">
-					<header>
-						<h2 class="h2 article-title">Resume</h2>
-					</header>
-					<section class="timeline">
-						<div class="title-wrapper">
-							<div class="icon-box">
-								<ion-icon name="book-outline"></ion-icon>
-							</div>
-							<h3 class="h3">Education</h3>
-						</div>
-						<ol class="timeline-list">
-							<li class="timeline-item">
-								<h4 class="h4 timeline-item-title">Anna University - MIT Campus</h4>
-								<span>2022 - Present</span>
-								<p class="timeline-text">
-									M.E., Avionics
-								</p>
-							</li>
-							<li class="timeline-item">
-								<h4 class="h4 timeline-item-title">Periyar Maniammai Institute of Science and Technology&nbsp; &nbsp; &nbsp;</h4>
-								<span>2018 — 2022</span>
-								<p class="timeline-text">
-									B.Tech., Aerospace Engineering &nbsp;&nbsp;
-								</p>
-							</li>
-						</ol>
-					</section>
-					<section class="timeline">
-						<div class="title-wrapper">
-							<div class="icon-box">
-								<ion-icon name="book-outline"></ion-icon>
-							</div>
-							<h3 class="h3">Experience</h3>
-						</div>
-						<ol class="timeline-list">
-							<li class="timeline-item">
-								<h4 class="h4 timeline-item-title">Avionics Engineer Trainee</h4>
-								<span>Daloft Aerospace,  March 2023 — September 2023</span>
-								<p class="timeline-text">
-									· Designed design redundancy systems and integrated sensor fusion with embedded systems<br>
-									· Team player in implementing control algorithms for aerial robot's flight controller.<br>
-									· In-charge of simulation, bench testing, and in-flight testing of R&D products<br>
-									· Guided in documentation for validation
-								</p>
-							</li>
-							<li class="timeline-item">
-								<h4 class="h4 timeline-item-title">Drone Intern</h4>
-								<span>Throttle Aerospace, May 2022 — September 2022</span>
-								<p class="timeline-text">
-									· Been a part of software team in Drone Defender Project<br>
-									· Performed image processing tasks in object detection projects<br>
-									· Acted as a Testing Pilot of the final product<br>
-									· Created reports and documents as requested by the office manager
-								</p>
-							</li>
-						</ol>
-					</section>
-					<section class="skill">
-						<h3 class="h3 skills-title"><a href="vijay-resume.pdf" download="vijay-resume" target="new">Link to Download Resume</a></h3>
-						<embed src="vijay-resume.pdf" type="application/pdf" width="100%" height="600px" />
-						<!--
-							<ul class="skills-list content-card">
-							
-							  <li class="skills-item">
-							
-							    <div class="title-wrapper">
-							      <h5 class="h5">Web design</h5>
-							      <data value="80">80%</data>
-							    </div>
-							
-							    <div class="skill-progress-bg">
-							      <div class="skill-progress-fill" style="width: 80%;"></div>
-							    </div>
-							
-							  </li>
-							
-							  <li class="skills-item">
-							
-							    <div class="title-wrapper">
-							      <h5 class="h5">Graphic design</h5>
-							      <data value="70">70%</data>
-							    </div>
-							
-							    <div class="skill-progress-bg">
-							      <div class="skill-progress-fill" style="width: 70%;"></div>
-							    </div>
-							
-							  </li>
-							
-							  <li class="skills-item">
-							
-							    <div class="title-wrapper">
-							      <h5 class="h5">Branding</h5>
-							      <data value="90">90%</data>
-							    </div>
-							
-							    <div class="skill-progress-bg">
-							      <div class="skill-progress-fill" style="width: 90%;"></div>
-							    </div>
-							
-							  </li>
-							
-							  <li class="skills-item">
-							
-							    <div class="title-wrapper">
-							      <h5 class="h5">WordPress</h5>
-							      <data value="50">50%</data>
-							    </div>
-							
-							    <div class="skill-progress-bg">
-							      <div class="skill-progress-fill" style="width: 50%;"></div>
-							    </div>
-							
-							  </li>
-							
-							</ul>
-							-->
-					</section>
-				</article>
-				<!--
-					- #PORTFOLIO
-					-->
-				<article class="projects" data-page="projects" id="projects-nav">
-					<header>
-						<h2 class="h2 article-title">Research projects</h2>
-					</header>
-					<section class="projects">
-						<!--
-							<ul class="filter-list">
-							
-							  <li class="filter-item">
-							<button class="active" data-filter-btn>All</button>
-							  </li>
-							
-							  <li class="filter-item">
-							<button data-filter-btn>Aerial Robotics</button>
-							  </li>
-							
-							<li class="filter-item">
-							<button data-filter-btn>Computer Vision</button>
-							  </li>
-							
-							  <li class="filter-item">
-							    <button data-filter-btn>Others</button>
-							  </li>
-							
-							
-							</ul>
-							
-							<div class="filter-select-box">
-							
-							  <button class="filter-select" data-select>
-							
-							    <div class="select-value" data-selecct-value>Select category</div>
-							
-							    <div class="select-icon">
-							      <ion-icon name="chevron-down"></ion-icon>
-							    </div>
-							
-							  </button>
-							
-							  <ul class="select-list">
-							
-							    <li class="select-item">
-							      <button data-select-item>All</button>
-							    </li>
-							
-							    <li class="select-item">
-							      <button data-select-item>Aerial Robotics</button>
-							    </li>
-							
-							    <li class="select-item">
-							      <button data-select-item>Computer Vision</button>
-							    </li>
-							
-							    <li class="select-item">
-							      <button data-select-item>Others</button>
-							    </li>
-							
-							  </ul>
-							
-							</div>
-							-->
-
-
-					</section>
-				</article>
-				<!--
-					- #BLOG
-					-->
-				<article class="blog" data-page="blog">
-					<header>
-						<h2 class="h2 article-title">Blog</h2>
-					</header>
-					<section class="blog-posts">
-						<ul class="blog-posts-list">
-							<li class="blog-post-item">
-								<a href="#">
-									<figure class="blog-banner-box">
-										<img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-									</figure>
-									<div class="blog-content">
-										<div class="blog-meta">
-											<p class="blog-category">Design</p>
-											<span class="dot"></span>
-											<time datetime="2022-02-23">Fab 23, 2022</time>
-										</div>
-										<h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-										<p class="blog-text">
-											Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-										</p>
-									</div>
-								</a>
-							</li>
-							<li class="blog-post-item">
-								<a href="#">
-									<figure class="blog-banner-box">
-										<img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-									</figure>
-									<div class="blog-content">
-										<div class="blog-meta">
-											<p class="blog-category">Design</p>
-											<span class="dot"></span>
-											<time datetime="2022-02-23">Fab 23, 2022</time>
-										</div>
-										<h3 class="h3 blog-item-title">Best fonts every designer</h3>
-										<p class="blog-text">
-											Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-										</p>
-									</div>
-								</a>
-							</li>
-							<li class="blog-post-item">
-								<a href="#">
-									<figure class="blog-banner-box">
-										<img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-									</figure>
-									<div class="blog-content">
-										<div class="blog-meta">
-											<p class="blog-category">Design</p>
-											<span class="dot"></span>
-											<time datetime="2022-02-23">Fab 23, 2022</time>
-										</div>
-										<h3 class="h3 blog-item-title">Design digest #80</h3>
-										<p class="blog-text">
-											Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-										</p>
-									</div>
-								</a>
-							</li>
-							<li class="blog-post-item">
-								<a href="#">
-									<figure class="blog-banner-box">
-										<img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-									</figure>
-									<div class="blog-content">
-										<div class="blog-meta">
-											<p class="blog-category">Design</p>
-											<span class="dot"></span>
-											<time datetime="2022-02-23">Fab 23, 2022</time>
-										</div>
-										<h3 class="h3 blog-item-title">UI interactions of the week</h3>
-										<p class="blog-text">
-											Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-										</p>
-									</div>
-								</a>
-							</li>
-							<li class="blog-post-item">
-								<a href="#">
-									<figure class="blog-banner-box">
-										<img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-									</figure>
-									<div class="blog-content">
-										<div class="blog-meta">
-											<p class="blog-category">Design</p>
-											<span class="dot"></span>
-											<time datetime="2022-02-23">Fab 23, 2022</time>
-										</div>
-										<h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-										<p class="blog-text">
-											Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										</p>
-									</div>
-								</a>
-							</li>
-							<li class="blog-post-item">
-								<a href="#">
-									<figure class="blog-banner-box">
-										<img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-									</figure>
-									<div class="blog-content">
-										<div class="blog-meta">
-											<p class="blog-category">Design</p>
-											<span class="dot"></span>
-											<time datetime="2022-02-23">Fab 23, 2022</time>
-										</div>
-										<h3 class="h3 blog-item-title">Design digest #79</h3>
-										<p class="blog-text">
-											Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-										</p>
-									</div>
-								</a>
-							</li>
-						</ul>
-					</section>
-				</article>
-				<!--
-					- #CONTACT
-					-->
-				<article class="contact" data-page="contact">
-					<header>
-						<h2 class="h2 article-title">Contact</h2>
-					</header>
-					<section class="mapbox" data-mapbox>
-						<figure>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.992089001501!2d80.13766462063343!3d12.947136071018244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fac595c29ff%3A0xb76082ae18b51418!2sMadras%20Institute%20of%20Technology%2C%20Anna%20University!5e0!3m2!1sen!2sin!4v1696965575412!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-							</iframe>
-						</figure>
-					</section>
-					<section class="contact-form">
-						<h3 class="h3 form-title">Contact Form</h3>
-						<form action="#" class="form" data-form>
-							<div class="input-wrapper">
-								<input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-								<input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-							</div>
-							<textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-							<button class="form-btn" type="submit" disabled data-form-btn>
-								<ion-icon name="paper-plane"></ion-icon>
-								<span>Send Message</span>
-							</button>
-						</form>
-					</section>
-				</article>
-			</div>
-		</main>
-		<!--
-			- custom js link
-			-->
-		<script src="./assets/js/script.js"></script>
-		<!--
-			- ionicon link
-			-->
-		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>VIJAYA PRAKASH MURUGAN</title>
+      <!--
+         - favicon
+         -->
+      <link rel="shortcut icon" href="./assets/images/Vijay-logo.png" type="image/x-icon">
+      <!--
+         - custom css link
+         -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <!--
+         - google font link
+         -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!--
+         - #MAIN
+         -->
+      <main>
+         <!--
+            - #SIDEBAR
+            -->
+         <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+               <figure class="avatar-box">
+                  <img src="./assets/images/profile.jpg" alt="Vijaya Prakash M" width="150">
+               </figure>
+               <div class="info-content">
+                  <h1 class="name" title="Vijaya Prakash M">Vijaya Prakash M</h1>
+                  <p class="title" style="text-align:center">M.E.&nbsp; Avionics <br>Madras Institute of Technology <br> Anna University </p>
+               </div>
+               <button class="info_more-btn" data-sidebar-btn>
+                  <span>Show Contacts</span>
+                  <ion-icon name="chevron-down"></ion-icon>
+               </button>
+            </div>
+            <div class="sidebar-info_more">
+               <div class="separator"></div>
+               <ul class="contacts-list">
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Email</p>
+                        <a href="mailto:muruvijay99@gmail.com" target="new" class="contact-link">muruvijay99@gmail.com</a>
+                     </div>
+                  </li>
+                  <!--
+                     <li class="contact-item">
+                     
+                       <div class="icon-box">
+                         <ion-icon name="phone-portrait-outline"></ion-icon>
+                       </div>
+                     
+                       <div class="contact-info">
+                         <p class="contact-title">Phone</p>
+                     
+                         <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+                       </div>
+                     
+                     </li>
+                     
+                     <li class="contact-item">
+                     
+                       <div class="icon-box">
+                         <ion-icon name="calendar-outline"></ion-icon>
+                       </div>
+                     
+                       <div class="contact-info">
+                         <p class="contact-title">Birthday</p>
+                     
+                         <time datetime="1982-06-23">June 23, 1982</time>
+                       </div>
+                     
+                     </li>
+                     -->
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>
+                           Chennai, Tamil Nadu, India
+                        </address>
+                     </div>
+                  </li>
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="20">
+                        <!--				<ion-icon name="calendar-outline"></ion-icon>-->
+                     </div>
+                     <!--
+                        <div class="service-icon-box">
+                                     <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                                   </div>
+                        -->
+                     <div class="contact-info">
+                        <p class="contact-title">Websites</p>
+                        <ul class="social-list">
+                           <li class="social-item">
+                              <a href="https://scholar.google.com/citations?hl=en&user=Pkp2N30AAAAJ" target="new" class="https://scholar.google.com/citations?hl=en&user=Pkp2N30AAAAJ">
+                                 <ion-icon name="logo-google"></ion-icon>
+                              </a>
+                           </li>
+                           <li class="social-item">
+                              <a href="https://twitter.com/Muruganvijay99" target="new" class="https://twitter.com/Muruganvijay99">
+                                 <ion-icon name="logo-twitter"></ion-icon>
+                              </a>
+                           </li>
+                           <li class="social-item">
+                              <a href="https://github.com/muruvijay99/" target="new" class="https://github.com/muruvijay99/">
+                                 <ion-icon name="logo-github"></ion-icon>
+                              </a>
+                           </li>
+                           <li class="social-item">
+                              <a href="https://www.linkedin.com/in/vijaya-prakash-murugan/" target="new" class="https://www.linkedin.com/in/vijaya-prakash-murugan/">
+                                 <ion-icon name="logo-linkedin"></ion-icon>
+                              </a>
+                           </li>
+                        </ul>
+                        <!--              <time datetime="1982-06-23">June 23, 1982</time>-->
+                     </div>
+                  </li>
+               </ul>
+               <div class="separator"></div>
+            </div>
+         </aside>
+         <!--
+            - #main-content
+            -->
+         <div class="main-content">
+            <!--
+               - #NAVBAR
+               -->
+            <nav class="navbar">
+               <ul class="navbar-list">
+                  <li class="navbar-item">
+                     <button class="navbar-link  active" data-nav-link>About</button>
+                  </li>
+                  <li class="navbar-item">
+                     <button class="navbar-link" data-nav-link>Resume</button>
+                  </li>
+                  <li class="navbar-item">
+                     <button class="navbar-link" data-nav-link>Projects</button>
+                  </li>
+                  <li class="navbar-item">
+                     <button class="navbar-link" data-nav-link>Blog</button>
+                  </li>
+                  <li class="navbar-item">
+                     <button class="navbar-link" data-nav-link>Contact</button>
+                  </li>
+               </ul>
+            </nav>
+            <!--
+               - #ABOUT
+               -->
+            <article class="about  active" data-page="about">
+               <header>
+                  <h2 class="h2 article-title">About me</h2>
+               </header>
+               <section class="about-text">
+                  <p style="display:inline;"> I am a M.E. Student in <a style="display:inline;" href="https://mitindia.edu/en" target="new">Avionics</a>. I did my Bachelor's (B.Tech.) in Aerospace Engineering at PMIST. <br>
+                     <br>
+                     I am broadly interested in Flight Control Systems and Computer Vision with applications to intelligent Aerial Robotic systems. I am looking to further explore new research areas in computer vision.
+                  </p>
+               </section>
+               <!--
+                  - service
+                  -->
+               <section class="service">
+                  <h3 class="h3 service-title">What i'm doing</h3>
+                  <ul class="service-list">
+                     <li class="service-item">
+                        <div class="service-icon-box">
+                           <img src="./assets/images/icon-design.svg
+                              " alt="design icon" width="40">
+                        </div>
+                        <div class="service-content-box">
+                           <h4 class="h4 service-item-title">Computer Vision&nbsp;</h4>
+                           <p class="service-item-text">
+                              Research towards state-of-the-art algorithms in computer vision.
+                           </p>
+                        </div>
+                     </li>
+                     <!--
+                        <li class="service-item">
+                        
+                          <div class="service-icon-box">
+                            <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                          </div>
+                        
+                          <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Web development</h4>
+                        
+                            <p class="service-item-text">
+                              High-quality development of sites at the professional level.
+                            </p>
+                          </div>
+                        
+                        </li>
+                        
+                        
+                        <li class="service-item">
+                        
+                          <div class="service-icon-box">
+                            <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                          </div>
+                        
+                          <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Mobile apps</h4>
+                        
+                            <p class="service-item-text">
+                              Professional development of applications for iOS and Android.
+                            </p>
+                          </div>
+                        
+                        </li>
+                        -->
+                     <!--
+                        <li class="service-item">
+                        
+                          <div class="service-icon-box">
+                            <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                          </div>
+                        
+                          <div class="service-content-box">
+                            <h4 class="h4 service-item-title"><a href="https://www.flickr.com/photos/kosmic_palette" target="new">Astrophotography</a></h4>
+                        
+                            <p class="service-item-text">
+                              Photography of celestial bodies or events such as Milkyway, star trails.
+                            </p>
+                          </div>
+                        
+                        </li>
+                        -->
+                  </ul>
+               </section>
+               <!--
+                  - testimonials modal
+                  -->
+               <div class="modal-container" data-modal-container>
+                  <div class="overlay" data-overlay></div>
+                  <section class="testimonials-modal">
+                     <button class="modal-close-btn" data-modal-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                     </button>
+                     <div class="modal-img-wrapper">
+                        <figure class="modal-avatar-box">
+                           <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                        </figure>
+                        <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                     </div>
+                     <div class="modal-content">
+                        <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                        <time datetime="2021-06-14">14 June, 2021</time>
+                        <div data-modal-text>
+                           <p>
+                              Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                              lot of experience
+                              and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                              consectetur adipiscing
+                              elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                           </p>
+                        </div>
+                     </div>
+                  </section>
+               </div>
+            </article>
+            <!--
+               - #RESUME
+               -->
+            <article class="resume" data-page="resume">
+               <header>
+                  <h2 class="h2 article-title">Resume</h2>
+               </header>
+               <section class="timeline">
+                  <div class="title-wrapper">
+                     <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                     </div>
+                     <h3 class="h3">Education</h3>
+                  </div>
+                  <ol class="timeline-list">
+                     <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Anna University - MIT Campus</h4>
+                        <span>2022 - Present</span>
+                        <p class="timeline-text">
+                           M.E., Avionics
+                        </p>
+                     </li>
+                     <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Periyar Maniammai Institute of Science and Technology&nbsp; &nbsp; &nbsp;</h4>
+                        <span>2018 — 2022</span>
+                        <p class="timeline-text">
+                           B.Tech., Aerospace Engineering &nbsp;&nbsp;
+                        </p>
+                     </li>
+                  </ol>
+               </section>
+               <section class="timeline">
+                  <div class="title-wrapper">
+                     <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                     </div>
+                     <h3 class="h3">Experience</h3>
+                  </div>
+                  <ol class="timeline-list">
+                     <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Avionics Engineer Trainee</h4>
+                        <span>Daloft Aerospace,  March 2023 — September 2023</span>
+                        <p class="timeline-text">
+                           · Designed design redundancy systems and integrated sensor fusion with embedded systems<br>
+                           · Team player in implementing control algorithms for aerial robot's flight controller.<br>
+                           · In-charge of simulation, bench testing, and in-flight testing of R&D products<br>
+                           · Guided in documentation for validation
+                        </p>
+                     </li>
+                     <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Drone Intern</h4>
+                        <span>Throttle Aerospace, May 2022 — September 2022</span>
+                        <p class="timeline-text">
+                           · Been a part of software team in Drone Defender Project<br>
+                           · Performed image processing tasks in object detection projects<br>
+                           · Acted as a Testing Pilot of the final product<br>
+                           · Created reports and documents as requested by the office manager
+                        </p>
+                     </li>
+                  </ol>
+               </section>
+               <section class="skill">
+                  <h3 class="h3 skills-title"><a href="vijay-resume.pdf" download="vijay-resume" target="new">Link to Download Resume</a></h3>
+                  <embed src="vijay-resume.pdf" type="application/pdf" width="100%" height="600px" />
+                  <!--
+                     <ul class="skills-list content-card">
+                     
+                       <li class="skills-item">
+                     
+                         <div class="title-wrapper">
+                           <h5 class="h5">Web design</h5>
+                           <data value="80">80%</data>
+                         </div>
+                     
+                         <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 80%;"></div>
+                         </div>
+                     
+                       </li>
+                     
+                       <li class="skills-item">
+                     
+                         <div class="title-wrapper">
+                           <h5 class="h5">Graphic design</h5>
+                           <data value="70">70%</data>
+                         </div>
+                     
+                         <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 70%;"></div>
+                         </div>
+                     
+                       </li>
+                     
+                       <li class="skills-item">
+                     
+                         <div class="title-wrapper">
+                           <h5 class="h5">Branding</h5>
+                           <data value="90">90%</data>
+                         </div>
+                     
+                         <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 90%;"></div>
+                         </div>
+                     
+                       </li>
+                     
+                       <li class="skills-item">
+                     
+                         <div class="title-wrapper">
+                           <h5 class="h5">WordPress</h5>
+                           <data value="50">50%</data>
+                         </div>
+                     
+                         <div class="skill-progress-bg">
+                           <div class="skill-progress-fill" style="width: 50%;"></div>
+                         </div>
+                     
+                       </li>
+                     
+                     </ul>
+                     -->
+               </section>
+            </article>
+            <!--
+               - #PORTFOLIO
+               -->
+            <article class="projects" data-page="projects" id="projects-nav">
+               <header>
+                  <h2 class="h2 article-title">Research projects</h2>
+               </header>
+               <section class="projects">
+                  <ul class="filter-list">
+                     <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                     </li>
+                     <li class="filter-item">
+                        <button data-filter-btn>Computer Vision</button>
+                     </li>
+                     <li class="filter-item">
+                        <button data-filter-btn>Others</button>
+                     </li>
+                     <!--
+                        <li class="filter-item">
+                          <button data-filter-btn>Web development</button>
+                        </li>
+                        -->
+                  </ul>
+                  <div class="filter-select-box">
+                     <button class="filter-select" data-select>
+                        <div class="select-value" data-selecct-value>Select category</div>
+                        <div class="select-icon">
+                           <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+                     </button>
+                     <ul class="select-list">
+                        <li class="select-item">
+                           <button data-select-item>All</button>
+                        </li>
+                        <li class="select-item">
+                           <button data-select-item>Computer Vision</button>
+                        </li>
+                        <li class="select-item">
+                           <button data-select-item>Others</button>
+                        </li>
+                        <!--
+                           <li class="select-item">
+                             <button data-select-item>Web development</button>
+                           </li>
+                           -->
+                     </ul>
+                  </div>
+                  <ul class="project-list">
+                     <li class="project-item  active" data-filter-item data-category="computer vision">
+                        <a href="https://koutilya-pnvr.github.io/LD-ZNet/" target="new">
+                           <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                 <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                              <img src="./paper_thumbnails/LDZNet-Summary.png" alt="LD-ZNet" loading="lazy">
+                              <!--					<img src="./paper_thumbnails/SharinGAN_introduction.jpg" width="500" class="thumbs" style="vertical-align: bottom;">-->
+                              <!--                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">-->
+                           </figure>
+                           <h3 class="project-title">LD-ZNet: A Latent Diffusion Approach for Text-Based Image Segmentation</h3>
+                           <p class="project-category">Computer Vision</p>
+                        </a>
+                     </li>
+                     <li class="project-item  active" data-filter-item data-category="computer vision">
+                        <a href="https://koutilya-pnvr.github.io/SharinGAN/" target="new">
+                           <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                 <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                              <img src="./paper_thumbnails/SharinGAN_introduction.jpg" alt="SharinGAN" loading="lazy">
+                              <!--					<img src="./paper_thumbnails/SharinGAN_introduction.jpg" width="500" class="thumbs" style="vertical-align: bottom;">-->
+                              <!--                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">-->
+                           </figure>
+                           <h3 class="project-title">SharinGAN: Combining Synthetic and real data for unsupervised geometry estimation</h3>
+                           <p class="project-category">Computer Vision</p>
+                        </a>
+                     </li>
+                     <li class="project-item  active" data-filter-item data-category="computer vision">
+                        <a href="https://openaccess.thecvf.com/content_eccv_2018_workshops/w10/html/Hanson_Bidirectional_Convolutional_LSTM_for_the_Detection_of_Violence_in_Videos_ECCVW_2018_paper.html" target="new">
+                           <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                 <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                              <img src="./paper_thumbnails/Screenshot Violent_Flow_Arch_Diagram.png" alt="Violence Detection" loading="lazy">
+                           </figure>
+                           <h3 class="project-title">Bidirectional convolutional LSTM for the detection of violence in videos</h3>
+                           <p class="project-category">Computer Vision</p>
+                        </a>
+                     </li>
+                     <li class="project-item  active" data-filter-item data-category="others">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0168169920307742" target="new">
+                           <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                 <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                              <img src="./paper_thumbnails/Pre_season_crop_mapping.jpeg" alt="Pre-season crop type mapping using deep neural networks" loading="lazy">
+                           </figure>
+                           <h3 class="project-title">Pre-season crop type mapping using deep neural networks</h3>
+                           <p class="project-category">Others</p>
+                        </a>
+                     </li>
+                     <li class="project-item  active" data-filter-item data-category="others">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0303243420301719" target="new">
+                           <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                 <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                              <img src="./paper_thumbnails/Phenocrop.jpg" alt="PhenoCrop: An integrated satellite-based framework to estimate physiological growth stages of corn and soybeans" loading="lazy">
+                           </figure>
+                           <h3 class="project-title">PhenoCrop: An integrated satellite-based framework to estimate physiological growth stages of corn and soybeans</h3>
+                           <p class="project-category">Others</p>
+                        </a>
+                     </li>
+                     <li class="project-item  active" data-filter-item data-category="others">
+                        <a href="https://link.springer.com/article/10.1007/s10825-015-0710-4" target="new">
+                           <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                 <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                              <img src="./paper_thumbnails/DMDG_JLFET.webp" alt="A pseudo 2-D surface potential model of a dual material double gate junctionless field effect transistor" loading="lazy">
+                           </figure>
+                           <h3 class="project-title">A pseudo 2-D surface potential model of a dual material double gate junctionless field effect transistor</h3>
+                           <p class="project-category">Others</p>
+                        </a>
+                     </li>
+                     <!--
+                        <li class="project-item  active" data-filter-item data-category="web design">
+                          <a href="#">
+                        
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                        
+                              <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                            </figure>
+                        
+                            <h3 class="project-title">MetaSpark</h3>
+                        
+                            <p class="project-category">Web design</p>
+                        
+                          </a>
+                        </li>
+                        
+                        
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                          <a href="#">
+                        
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                        
+                              <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                            </figure>
+                        
+                            <h3 class="project-title">Summary</h3>
+                        
+                            <p class="project-category">Web development</p>
+                        
+                          </a>
+                        </li>
+                        
+                        <li class="project-item  active" data-filter-item data-category="applications">
+                          <a href="#">
+                        
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                        
+                              <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                            </figure>
+                        
+                            <h3 class="project-title">Task Manager</h3>
+                        
+                            <p class="project-category">Applications</p>
+                        
+                          </a>
+                        </li>
+                        
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                          <a href="#">
+                        
+                            <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                        
+                              <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                            </figure>
+                        
+                            <h3 class="project-title">Arrival</h3>
+                        
+                            <p class="project-category">Web development</p>
+                        
+                          </a>
+                        </li>
+                        -->
+                  </ul>
+               </section>
+            </article>
+            <!--
+               - #BLOG
+               -->
+            <article class="blog" data-page="blog">
+               <header>
+                  <h2 class="h2 article-title">Blog</h2>
+               </header>
+               <section class="blog-posts">
+                  <ul class="blog-posts-list">
+                     <li class="blog-post-item">
+                        <a href="#">
+                           <figure class="blog-banner-box">
+                              <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                           </figure>
+                           <div class="blog-content">
+                              <div class="blog-meta">
+                                 <p class="blog-category">Design</p>
+                                 <span class="dot"></span>
+                                 <time datetime="2022-02-23">Fab 23, 2022</time>
+                              </div>
+                              <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                              <p class="blog-text">
+                                 Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                              </p>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="blog-post-item">
+                        <a href="#">
+                           <figure class="blog-banner-box">
+                              <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                           </figure>
+                           <div class="blog-content">
+                              <div class="blog-meta">
+                                 <p class="blog-category">Design</p>
+                                 <span class="dot"></span>
+                                 <time datetime="2022-02-23">Fab 23, 2022</time>
+                              </div>
+                              <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                              <p class="blog-text">
+                                 Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                              </p>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="blog-post-item">
+                        <a href="#">
+                           <figure class="blog-banner-box">
+                              <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                           </figure>
+                           <div class="blog-content">
+                              <div class="blog-meta">
+                                 <p class="blog-category">Design</p>
+                                 <span class="dot"></span>
+                                 <time datetime="2022-02-23">Fab 23, 2022</time>
+                              </div>
+                              <h3 class="h3 blog-item-title">Design digest #80</h3>
+                              <p class="blog-text">
+                                 Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                              </p>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="blog-post-item">
+                        <a href="#">
+                           <figure class="blog-banner-box">
+                              <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                           </figure>
+                           <div class="blog-content">
+                              <div class="blog-meta">
+                                 <p class="blog-category">Design</p>
+                                 <span class="dot"></span>
+                                 <time datetime="2022-02-23">Fab 23, 2022</time>
+                              </div>
+                              <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                              <p class="blog-text">
+                                 Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                              </p>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="blog-post-item">
+                        <a href="#">
+                           <figure class="blog-banner-box">
+                              <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                           </figure>
+                           <div class="blog-content">
+                              <div class="blog-meta">
+                                 <p class="blog-category">Design</p>
+                                 <span class="dot"></span>
+                                 <time datetime="2022-02-23">Fab 23, 2022</time>
+                              </div>
+                              <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+                              <p class="blog-text">
+                                 Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </p>
+                           </div>
+                        </a>
+                     </li>
+                     <li class="blog-post-item">
+                        <a href="#">
+                           <figure class="blog-banner-box">
+                              <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                           </figure>
+                           <div class="blog-content">
+                              <div class="blog-meta">
+                                 <p class="blog-category">Design</p>
+                                 <span class="dot"></span>
+                                 <time datetime="2022-02-23">Fab 23, 2022</time>
+                              </div>
+                              <h3 class="h3 blog-item-title">Design digest #79</h3>
+                              <p class="blog-text">
+                                 Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                              </p>
+                           </div>
+                        </a>
+                     </li>
+                  </ul>
+               </section>
+            </article>
+            <!--
+               - #CONTACT
+               -->
+            <article class="contact" data-page="contact">
+               <header>
+                  <h2 class="h2 article-title">Contact</h2>
+               </header>
+               <section class="mapbox" data-mapbox>
+                  <figure>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.992089001501!2d80.13766462063343!3d12.947136071018244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fac595c29ff%3A0xb76082ae18b51418!2sMadras%20Institute%20of%20Technology%2C%20Anna%20University!5e0!3m2!1sen!2sin!4v1696965575412!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                     </iframe>
+                  </figure>
+               </section>
+               <section class="contact-form">
+                  <h3 class="h3 form-title">Contact Form</h3>
+                  <form action="#" class="form" data-form>
+                     <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                     </div>
+                     <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                     <button class="form-btn" type="submit" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                     </button>
+                  </form>
+               </section>
+            </article>
+         </div>
+      </main>
+      <!--
+         - custom js link
+         -->
+      <script src="./assets/js/script.js"></script>
+      <!--
+         - ionicon link
+         -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   </body>
 </html>
